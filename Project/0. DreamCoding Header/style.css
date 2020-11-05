@@ -34,3 +34,37 @@ body {
 .navbar__icons {
   display: flex;
 }
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.bar_button {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  .navbar {
+    height: 50px;
+  }
+  .navbar__menu {
+    display: none;
+  }
+
+  .navbar__icons {
+    display: none;
+  }
+
+  .bar_button {
+    display: block;
+    position: fixed;
+    right: 30px;
+    color: #d49466;
+    font-size: 25px;
+  }
+
+  .bar_button:hover {
+    cursor: pointer;
+  }
+}
