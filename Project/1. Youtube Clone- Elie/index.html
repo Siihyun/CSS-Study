@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube Mobile</title>
+    <script
+      src="https://kit.fontawesome.com/ddf1a04f37.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="main.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="youtube__header">
+      <div class="logo">
+        <i class="fab fa-youtube"></i>
+        <span class="title">YouTube</span>
+      </div>
+      <div class="icons">
+        <i class="fas fa-search"></i>
+        <i class="fas fa-ellipsis-v"></i>
+      </div>
+    </header>
+
+    <!-- video player -->
+    <section class="player">
+      <video controls src="video/video.mp4"></video>
+    </section>
+
+    <!-- video information -->
+    <div class="infoAndUpNext">
+      <section class="info">
+        <!-- metadata-->
+        <div class="metadata">
+          <ul class="hashtags">
+            <li>#아이유</li>
+            <li>#적재</li>
+            <li>#잘 지내</li>
+          </ul>
+          <div class="titleAndButtons">
+            <span class="title clamp">
+              아이유의 집콕 시그널! 아이유와 함께하는 뮤지션은 과연 누구? 대세
+              뮤지션 적재가 만났다! 아이유와 적재의 환상적인 콜라보레이션. IU &
+              적재 - 잘지내. Special Stage with IU & JeokJae! IU corporation.
+            </span>
+            <button class="moreBtn">
+              <i class="fas fa-caret-down"></i>
+            </button>
+          </div>
+          <span class="viewInfo">1M views | 1 month ago</span>
+        </div>
+
+        <!-- actions-->
+        <ul class="actions">
+          <li>
+            <button>
+              <i class="active fas fa-thumbs-up"></i><span>11K</span>
+            </button>
+          </li>
+          <li>
+            <button><i class="fas fa-thumbs-down"></i><span>8</span></button>
+          </li>
+          <li>
+            <button><i class="fas fa-share"></i><span>Share</span></button>
+          </li>
+          <li>
+            <button><i class="fas fa-plus"></i><span>Save</span></button>
+          </li>
+          <li>
+            <button>
+              <i class="fab fa-font-awesome-flag"></i><span>report</span>
+            </button>
+          </li>
+        </ul>
+
+        <!-- channel -->
+        <div class="channel">
+          <div class="channel__info">
+            <img src="profile.jpg" alt="" class="profile_pic" />
+            <div class="info">
+              <span class="title"> Sihyun </span>
+              <span class="subs"> 1M Subscribers </span>
+            </div>
+          </div>
+          <button>subscribe</button>
+        </div>
+      </section>
+
+      <!-- upNext Video information -->
+      <section class="upNext">
+        <span class="text">Up next</span>
+        <ul class="nextVideo">
+          <li class="item">
+            <div class="img">
+              <img src="image/thumnail1.jpg" alt="" class="thumname" />
+            </div>
+            <div class="nextVideo__info">
+              <span class="title"
+                >IU의 콘서트. 유희열의 스케치북 - talk 모음</span
+              >
+              <span class="name">Sihyun</span>
+              <span class="views">2.4M views</span>
+            </div>
+            <button><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+          <li class="item">
+            <div class="img">
+              <img src="image/thumnail2.jpg" alt="" class="thumname" />
+            </div>
+            <div class="nextVideo__info">
+              <span class="title"
+                >201018 서울 잠실 올림픽 경기장 아이유콘서트 - 너랑 나 Live
+                직캠</span
+              >
+              <span class="name">Sihyun</span>
+              <span class="views">819K views</span>
+            </div>
+            <button><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+          <li class="item">
+            <div class="img">
+              <img src="image/thumnail3.jpg" alt="" class="thumname" />
+            </div>
+            <div class="nextVideo__info">
+              <span class="title"
+                >IU Blueming Official Music Video - Live clip - 20201004 Seoul
+                Songpa Festival</span
+              >
+              <span class="name">Sihyun</span>
+              <span class="views">12M views</span>
+            </div>
+            <button><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </body>
+</html>
