@@ -176,10 +176,6 @@ i.active {
   border-radius: 50%;
 }
 
-.upNext {
-  padding: 0 var(--padding);
-}
-
 .upNext .text {
   font-size: var(--font-medium);
   color: var(--grey-dark-color);

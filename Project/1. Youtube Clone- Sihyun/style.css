@@ -1,0 +1,199 @@
+:root {
+  /* color */
+  --white-color: #fff;
+  --black-color: #140a00;
+  --blue-color: #045fd4;
+  --red-color: #ff0000;
+  --grey-dark-color: #909090;
+  --grey-light-color: #e0e0e0;
+
+  /* size */
+  --padding: 12px;
+  --avatar-size: 36px;
+
+  /* Font size */
+  --font-large: 18px;
+  --font-medium: 14px;
+  --font-small: 12px;
+  --font-micro: 10px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 0px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  color: var(--white-color);
+  background-color: var(--black-color);
+  padding: var(--padding);
+}
+
+.header .logo span {
+  font-size: var(--font-large);
+}
+.header .logo i {
+  color: var(--red-color);
+}
+
+.header .icons i.fa-search {
+  color: var(--white-color);
+  margin-right: var(--padding);
+}
+
+.video {
+  background-color: var(--black-color);
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  max-width: 1000px;
+}
+
+li {
+  list-style: none;
+}
+.hashtags {
+  display: flex;
+  color: var(--blue-color);
+  font-size: var(--font-small);
+}
+
+.hashtags li {
+  margin-right: var(--padding);
+  margin-top: var(--padding);
+}
+
+.titleAndButtons {
+  display: flex;
+  font-size: var(--font-medium);
+}
+
+.titleAndButtons .title {
+  margin-right: var(--padding);
+}
+.titleAndButtons button {
+  height: 100%;
+}
+
+.info__video .views {
+  color: var(--grey-dark-color);
+}
+
+.actions {
+  display: flex;
+  justify-content: space-around;
+}
+
+button,
+button:focus {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background-color: var(--white-color);
+}
+
+.actions span {
+  display: flex;
+  margin: calc(var(--padding) / 2);
+}
+
+.profile__img {
+  width: var(--avatar-size);
+  height: var(--avatar-size);
+  border-radius: 50%;
+  margin-right: var(--padding);
+}
+
+.actions button {
+  color: var(--grey-dark-color);
+}
+
+.actions button {
+  font-size: var(--font-small);
+  margin-top: var(--padding);
+}
+.actions button i {
+  margin: 0 auto;
+}
+
+.profile {
+  display: flex;
+}
+
+.nameAndSubs {
+  display: flex;
+  flex-direction: column;
+  font-size: var(--font-medium);
+}
+
+.info__Youtuber {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subsBtn {
+  color: var(--red-color);
+}
+
+.upNext {
+  display: flex;
+  flex-direction: column;
+}
+
+.upNext .upNext {
+  font-size: var(--font-medium);
+  color: var(--grey-dark-color);
+  padding: var(--padding);
+}
+
+.upnext .nextVideo {
+  display: flex;
+  flex-direction: column;
+}
+
+.nextVideo li {
+  display: flex;
+}
+
+.upNext img {
+  width: 100%;
+}
+.upNext li .img {
+  flex: 1 1 35%;
+  margin-right: var(--padding);
+}
+
+.upNext li .nextVideo__info {
+  flex: 1 1 60%;
+  font-size: var(--font-medium);
+  display: flex;
+  flex-direction: column;
+}
+
+.upNext li button {
+  flex: 1 1 5%;
+  height: 100%;
+}
+
+.upNext {
+  padding: var(--padding);
+}
+
+.upNext li .nextVideo__info .info__youtuber,
+.upNext li .nextVideo__info .info__views {
+  font-size: var(--font-small);
+  color: var(--grey-dark-color);
+}
