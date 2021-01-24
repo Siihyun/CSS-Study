@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #1f2d3d;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: #1f2d3d;
+}
+
+body::after {
+  content: "seeh_h👊";
+  display: block;
+  margin-top: 50px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-bottom: 1.5rem;
+  width: 100%;
+  max-width: 320px;
+}
+
+.info__title {
+  font-size: 20px;
+  line-heigh: 28px;
+}
+
+.info__host {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  opacity: 0.5;
+}
+
+.receipt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  max-width: 320px;
+  border-radius: 8px;
+  padding: 2rem;
+  position: relative;
+}
+
+.date {
+  width: 100%;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  opacity: 0.8;
+}
+
+.title {
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+.imgBlock {
+  width: 50%;
+  margin-bottom: 2rem;
+}
+
+.barcode {
+  width: 100%;
+}
+
+.receipt-info {
+  width: 100%;
+}
+
+dl > div {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  opacity: 0.8;
+  line-height: 1.75;
+  width: 100%;
+}
+
+.totalPrice {
+  margin-bottom: 1rem;
+}
+
+.logo {
+  width: 2.5rem;
+  position: absolute;
+  right: 2rem;
+  top: 1rem;
+}

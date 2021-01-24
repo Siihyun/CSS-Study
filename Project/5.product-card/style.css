@@ -1,0 +1,83 @@
+@import url(https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  letter-spacing: -0.03em;
+}
+
+html {
+  font-family: "SpoqaHanSans";
+  font-size: 16px;
+  line-height: 1.5;
+  color: #1f2d3d;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1f2d3d;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px 48px 24px;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.product-card:hover .product-card-image::after {
+  box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.4);
+}
+
+.product-card-image img {
+  position: relative;
+  z-index: 1;
+  border-radius: 5px;
+}
+
+.product-card-author {
+  color: #7f858d;
+  font-weight: 300;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.product-card-title strong {
+  color: white;
+  background-color: #0257c7;
+}
+
+.product-card-review i {
+  color: #ffcf14;
+}
+
+.product-card-title h1 {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 1.3333333333;
+  color: #212529;
+}
+
+.product-card-title strong {
+  padding: 0 5px 0 4px;
+  border-radius: 4px;
+  margin-left: 8px;
+  font-size: 13px;
+  line-height: 20px;
+  color: #fff;
+  background-color: #0257c7;
+}
+
+.owner {
+  font-size: 0.75em;
+  margin-top: 4.167em;
+  color: white;
+  font-weight: 600;
+}
